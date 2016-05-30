@@ -22,6 +22,9 @@ group :development, :test do
 
   # Use RSpec due to greater support
   gem 'rspec-rails', '~> 3.4'
+
+  # Better than fixtures
+  gem 'factory_girl_rails'
 end
 
 group :development do
