@@ -19,6 +19,9 @@ gem 'bcrypt', '~> 3.1.7'
 group :development, :test do
   # Breakpoints in requests
   gem 'byebug'
+
+  # Use RSpec due to greater support
+  gem 'rspec-rails', '~> 3.4'
 end
 
 group :development do
